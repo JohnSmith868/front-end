@@ -2,11 +2,13 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
 import InputContainer from './components/InputContainer';
+import ServicesContainer from './components/ServicesContainer';
 import reportWebVitals from './reportWebVitals';
 
 ReactDOM.render(
   <React.StrictMode>
-    <InputContainer />
+    {/* <InputContainer /> */}
+    <ServicesContainer />
   </React.StrictMode>,
   document.getElementById('root')
 );
